@@ -1,0 +1,63 @@
+<html>
+  <head>
+    <title>PM2.5 Global Air Pollution 2017</title>
+    <meta charset="utf-8" />
+
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+
+    <style media="screen">
+      /* Add space between Vega-Embed links  */
+      .vega-actions a {
+        margin-right: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>ziyue zhang</h1>
+    <!-- Container for the visualization -->
+    <div id="vis"></div>
+
+    <script>
+      // Assign the specification to a local variable vlSpec.
+      var vlSpec = {
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "title": "PM2.5 Global Air Pollution 2017",
+  "width": 800,
+  "height": 600,
+  "data": {
+    "url": "https://raw.githubusercontent.com/ziyuezhang009/fit3179-w9/main/global.geo.topo.json",
+    "format": {"type": "topojson", "feature": "global"}
+  },
+  "transform": [
+    {
+      "lookup": "properties.name",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/ziyuezhang009/fit3179-w9/main/PM2.5%20Global%20Air%20Pollution%202010-2017.csv"
+        },
+        "key": "Country Name",
+        "fields": ["2017"]
+      }
+    }
+  ],
+  "projection": {"type": "mercator"},
+  "mark": {"type": "geoshape"},
+  "encoding": {
+    "color": {
+      "field": "2017",
+      "type": "quantitative"
+    },
+    "tooltip": [
+      {"field": "properties.name", "type": "nominal", "title": "Country"},
+      {"field": "2017", "type": "quantitative"}
+    ]
+  }
+}
+
+      // Embed the visualization in the container with id `vis`
+      vegaEmbed('#vis', vlSpec);
+    </script>
+  </body>
+</html>
