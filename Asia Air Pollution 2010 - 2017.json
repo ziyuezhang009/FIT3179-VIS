@@ -1,0 +1,142 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": 500,
+  "height": 400,
+  "title": "Asia Air Pollution 2010 - 2017",
+  "data": {
+    "url": "https://raw.githubusercontent.com/ziyuezhang009/fit3179-w9/main/PM_data.csv"
+  },
+  "selection": {
+    "country_selector": {
+      "type": "single",
+      "fields": ["Country_name"],
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "Afghanistan",
+          "Armenia",
+          "Azerbaijan",
+          "Bangladesh",
+          "Bahrain",
+          "Bhutan",
+          "China",
+          "Indonesia",
+          "India",
+          "Iraq",
+          "Israel",
+          "Kazakhstan",
+          "Cambodia",
+          "Kuwait",
+          "Lebanon",
+          "Sri Lanka",
+          "Maldives",
+          "Myanmar",
+          "Nepal",
+          "Oman",
+          "Pakistan",
+          "Philippines",
+          "Qatar",
+          "Saudi Arabia",
+          "Singapore",
+          "Thailand",
+          "Tajikistan",
+          "Timor-Leste",
+          "Turkey",
+          "Uzbekistan",
+          "Vietnam"
+        ],
+        "labels": [
+          "Show All",
+          "Afghanistan",
+          "Armenia",
+          "Azerbaijan",
+          "Bangladesh",
+          "Bahrain",
+          "Bhutan",
+          "China",
+          "Indonesia",
+          "India",
+          "Iraq",
+          "Israel",
+          "Kazakhstan",
+          "Cambodia",
+          "Kuwait",
+          "Lebanon",
+          "Sri Lanka",
+          "Maldives",
+          "Myanmar",
+          "Nepal",
+          "Oman",
+          "Pakistan",
+          "Philippines",
+          "Qatar",
+          "Saudi Arabia",
+          "Singapore",
+          "Thailand",
+          "Tajikistan",
+          "Timor-Leste",
+          "Turkey",
+          "Uzbekistan",
+          "Vietnam"
+        ],
+        "name": "Country Selection"
+      }
+    }
+  },
+  "transform": [{"filter": {"selection": "country_selector"}}],
+  "mark": {"type": "line", "point": true},
+  "encoding": {
+    "x": {"timeUnit": "yearmonth", "field": "Year", "axis": {"format": "%Y"}},
+    "y": {
+      "aggregate": "mean",
+      "field": "PM",
+      "type": "quantitative",
+      "title": "Mean of PM 2.5"
+    },
+    "tooltip": [
+      {"field": "Country_name", "type": "nominal", "title": "Country"},
+      {"field": "PM", "type": "quantitative", "title": "PM 2.5"}
+    ],
+    "color": {
+      "field": "Country_name",
+      "type": "nominal",
+      "scale": {
+        "domain": [
+          "Afghanistan",
+          "Armenia",
+          "Azerbaijan",
+          "Bangladesh",
+          "Bahrain",
+          "Bhutan",
+          "China",
+          "Indonesia",
+          "India",
+          "Iraq",
+          "Israel",
+          "Kazakhstan",
+          "Cambodia",
+          "Kuwait",
+          "Lebanon",
+          "Sri Lanka",
+          "Maldives",
+          "Myanmar",
+          "Nepal",
+          "Oman",
+          "Pakistan",
+          "Philippines",
+          "Qatar",
+          "Saudi Arabia",
+          "Singapore",
+          "Thailand",
+          "Tajikistan",
+          "Timor-Leste",
+          "Turkey",
+          "Uzbekistan",
+          "Vietnam"
+        ]
+      }
+    }
+  },
+  "config": {}
+}
