@@ -1,0 +1,1057 @@
+"","Country.Name","Continent_Name","Year","PM"
+"1","Afghanistan","Asia","2010",65.24559168
+"2","Afghanistan","Asia","2011",66.83572711
+"3","Afghanistan","Asia","2012",66.02317421
+"4","Afghanistan","Asia","2013",61.36674452
+"5","Afghanistan","Asia","2014",59.01033025
+"6","Afghanistan","Asia","2015",61.2526558
+"7","Afghanistan","Asia","2016",56.28704672
+"8","Afghanistan","Asia","2017",56.91080835
+"9","Angola","Africa","2010",33.78724719
+"10","Angola","Africa","2011",33.10419463
+"11","Angola","Africa","2012",33.41549506
+"12","Angola","Africa","2013",34.66392257
+"13","Angola","Africa","2014",32.97402504
+"14","Angola","Africa","2015",32.72987314
+"15","Angola","Africa","2016",31.78538881
+"16","Angola","Africa","2017",32.38850491
+"17","Albania","Europe","2010",21.27782812
+"18","Albania","Europe","2011",22.77253665
+"19","Albania","Europe","2012",20.57825918
+"20","Albania","Europe","2013",19.93851711
+"21","Albania","Europe","2014",18.88395497
+"22","Albania","Europe","2015",19.51253962
+"23","Albania","Europe","2016",18.18993375
+"24","Albania","Europe","2017",18.20060252
+"25","Andorra","Europe","2010",12.8071975
+"26","Andorra","Europe","2011",13.27350555
+"27","Andorra","Europe","2012",12.40705303
+"28","Andorra","Europe","2013",11.81367331
+"29","Andorra","Europe","2014",10.83041825
+"30","Andorra","Europe","2015",11.46217847
+"31","Andorra","Europe","2016",10.25583443
+"32","Andorra","Europe","2017",10.30762139
+"33","Argentina","South America","2010",16.85910062
+"34","Argentina","South America","2011",17.38298213
+"35","Argentina","South America","2012",16.13507182
+"36","Argentina","South America","2013",15.59737515
+"37","Argentina","South America","2014",14.46698041
+"38","Argentina","South America","2015",14.6316259
+"39","Argentina","South America","2016",13.75144403
+"40","Argentina","South America","2017",13.31183395
+"41","Armenia","Europe","2010",37.53004093
+"42","Armenia","Europe","2011",38.61227522
+"43","Armenia","Europe","2012",37.18448464
+"44","Armenia","Europe","2013",34.9372126
+"45","Armenia","Europe","2014",33.08594982
+"46","Armenia","Europe","2015",34.88143264
+"47","Armenia","Europe","2016",32.22716773
+"48","Armenia","Europe","2017",32.52811834
+"49","Armenia","Asia","2010",37.53004093
+"50","Armenia","Asia","2011",38.61227522
+"51","Armenia","Asia","2012",37.18448464
+"52","Armenia","Asia","2013",34.9372126
+"53","Armenia","Asia","2014",33.08594982
+"54","Armenia","Asia","2015",34.88143264
+"55","Armenia","Asia","2016",32.22716773
+"56","Armenia","Asia","2017",32.52811834
+"57","Australia","Oceania","2010",10.6188794
+"58","Australia","Oceania","2011",11.04726492
+"59","Australia","Oceania","2012",10.53708999
+"60","Australia","Oceania","2013",9.98768389
+"61","Australia","Oceania","2014",9.492978752
+"62","Australia","Oceania","2015",9.320015289
+"63","Australia","Oceania","2016",8.614508924
+"64","Australia","Oceania","2017",8.550324401
+"65","Austria","Europe","2010",15.14913995
+"66","Austria","Europe","2011",15.57337093
+"67","Austria","Europe","2012",14.28233205
+"68","Austria","Europe","2013",14.08161348
+"69","Austria","Europe","2014",13.37922794
+"70","Austria","Europe","2015",13.54109517
+"71","Austria","Europe","2016",12.59681605
+"72","Austria","Europe","2017",12.47796673
+"73","Azerbaijan","Europe","2010",23.0476012
+"74","Azerbaijan","Europe","2011",23.6298688
+"75","Azerbaijan","Europe","2012",22.18081034
+"76","Azerbaijan","Europe","2013",22.27878046
+"77","Azerbaijan","Europe","2014",20.71006751
+"78","Azerbaijan","Europe","2015",21.41412281
+"79","Azerbaijan","Europe","2016",20.20815664
+"80","Azerbaijan","Europe","2017",19.92866362
+"81","Azerbaijan","Asia","2010",23.0476012
+"82","Azerbaijan","Asia","2011",23.6298688
+"83","Azerbaijan","Asia","2012",22.18081034
+"84","Azerbaijan","Asia","2013",22.27878046
+"85","Azerbaijan","Asia","2014",20.71006751
+"86","Azerbaijan","Asia","2015",21.41412281
+"87","Azerbaijan","Asia","2016",20.20815664
+"88","Azerbaijan","Asia","2017",19.92866362
+"89","Burundi","Africa","2010",38.38116825
+"90","Burundi","Africa","2011",38.23619121
+"91","Burundi","Africa","2012",41.01132776
+"92","Burundi","Africa","2013",39.97107204
+"93","Burundi","Africa","2014",39.38755864
+"94","Burundi","Africa","2015",38.43088048
+"95","Burundi","Africa","2016",38.65322349
+"96","Burundi","Africa","2017",38.89626795
+"97","Belgium","Europe","2010",16.00931923
+"98","Belgium","Europe","2011",15.69844257
+"99","Belgium","Europe","2012",14.74189365
+"100","Belgium","Europe","2013",14.02266986
+"101","Belgium","Europe","2014",13.2336213
+"102","Belgium","Europe","2015",13.56652303
+"103","Belgium","Europe","2016",12.83308751
+"104","Belgium","Europe","2017",12.88651847
+"105","Benin","Africa","2010",32.39296916
+"106","Benin","Africa","2011",32.58084623
+"107","Benin","Africa","2012",31.99200044
+"108","Benin","Africa","2013",31.44329865
+"109","Benin","Africa","2014",29.66045567
+"110","Benin","Africa","2015",40.47068263
+"111","Benin","Africa","2016",38.44770366
+"112","Benin","Africa","2017",38.99995876
+"113","Bangladesh","Asia","2010",70.76499566
+"114","Bangladesh","Asia","2011",70.2105489
+"115","Bangladesh","Asia","2012",70.79390882
+"116","Bangladesh","Asia","2013",65.64508289
+"117","Bangladesh","Asia","2014",68.3953774
+"118","Bangladesh","Asia","2015",66.96574924
+"119","Bangladesh","Asia","2016",60.12627467
+"120","Bangladesh","Asia","2017",60.84578458
+"121","Bulgaria","Europe","2010",22.75619549
+"122","Bulgaria","Europe","2011",24.30032702
+"123","Bulgaria","Europe","2012",22.64465578
+"124","Bulgaria","Europe","2013",20.99963709
+"125","Bulgaria","Europe","2014",20.74356996
+"126","Bulgaria","Europe","2015",20.77642742
+"127","Bulgaria","Europe","2016",19.28301303
+"128","Bulgaria","Europe","2017",19.14913234
+"129","Bahrain","Asia","2010",65.63088097
+"130","Bahrain","Asia","2011",63.73249929
+"131","Bahrain","Asia","2012",70.28748254
+"132","Bahrain","Asia","2013",67.79467818
+"133","Bahrain","Asia","2014",62.75854371
+"134","Bahrain","Asia","2015",72.60467743
+"135","Bahrain","Asia","2016",69.86418236
+"136","Bahrain","Asia","2017",70.81620768
+"137","Belarus","Europe","2010",23.31940958
+"138","Belarus","Europe","2011",22.91114578
+"139","Belarus","Europe","2012",21.64637226
+"140","Belarus","Europe","2013",20.59045954
+"141","Belarus","Europe","2014",19.76605366
+"142","Belarus","Europe","2015",20.07627636
+"143","Belarus","Europe","2016",18.87823952
+"144","Belarus","Europe","2017",18.76557991
+"145","Bolivia","South America","2010",29.5728099
+"146","Bolivia","South America","2011",27.90420439
+"147","Bolivia","South America","2012",26.39024388
+"148","Bolivia","South America","2013",26.09046897
+"149","Bolivia","South America","2014",24.81882932
+"150","Bolivia","South America","2015",22.47639992
+"151","Bolivia","South America","2016",21.3866041
+"152","Bolivia","South America","2017",21.5689866
+"153","Brazil","South America","2010",15.95528506
+"154","Brazil","South America","2011",15.91279799
+"155","Brazil","South America","2012",15.28545576
+"156","Brazil","South America","2013",14.60990092
+"157","Brazil","South America","2014",13.98993477
+"158","Brazil","South America","2015",13.59465562
+"159","Brazil","South America","2016",12.65867601
+"160","Brazil","South America","2017",12.70662947
+"161","Bhutan","Asia","2010",43.96188317
+"162","Bhutan","Asia","2011",43.07170329
+"163","Bhutan","Asia","2012",42.93227289
+"164","Bhutan","Asia","2013",41.88190701
+"165","Bhutan","Asia","2014",40.83967373
+"166","Bhutan","Asia","2015",39.81863873
+"167","Bhutan","Asia","2016",37.22436394
+"168","Bhutan","Asia","2017",37.9265032
+"169","Botswana","Africa","2010",25.72472072
+"170","Botswana","Africa","2011",24.59211459
+"171","Botswana","Africa","2012",24.85403894
+"172","Botswana","Africa","2013",24.87425931
+"173","Botswana","Africa","2014",24.15127779
+"174","Botswana","Africa","2015",24.33025796
+"175","Botswana","Africa","2016",23.63126742
+"176","Botswana","Africa","2017",23.09438618
+"177","Switzerland","Europe","2010",12.92221973
+"178","Switzerland","Europe","2011",13.04922122
+"179","Switzerland","Europe","2012",12.26138801
+"180","Switzerland","Europe","2013",11.82005499
+"181","Switzerland","Europe","2014",11.38910719
+"182","Switzerland","Europe","2015",11.16525468
+"183","Switzerland","Europe","2016",10.34263047
+"184","Switzerland","Europe","2017",10.3031001
+"185","Chile","South America","2010",25.89229169
+"186","Chile","South America","2011",27.24586707
+"187","Chile","South America","2012",25.0471553
+"188","Chile","South America","2013",23.9366936
+"189","Chile","South America","2014",22.86825181
+"190","Chile","South America","2015",22.56979255
+"191","Chile","South America","2016",20.87687041
+"192","Chile","South America","2017",21.03629906
+"193","China","Asia","2010",69.47957041
+"194","China","Asia","2011",70.54202883
+"195","China","Asia","2012",63.82701684
+"196","China","Asia","2013",65.51455022
+"197","China","Asia","2014",59.76736751
+"198","China","Asia","2015",59.06342246
+"199","China","Asia","2016",52.21132204
+"200","China","Asia","2017",52.66459583
+"201","Cote d'Ivoire","Africa","2010",21.617705
+"202","Cote d'Ivoire","Africa","2011",22.59307255
+"203","Cote d'Ivoire","Africa","2012",22.49440447
+"204","Cote d'Ivoire","Africa","2013",21.30554316
+"205","Cote d'Ivoire","Africa","2014",20.90017764
+"206","Cote d'Ivoire","Africa","2015",27.68749396
+"207","Cote d'Ivoire","Africa","2016",26.67470411
+"208","Cote d'Ivoire","Africa","2017",25.88626634
+"209","Cameroon","Africa","2010",59.29340315
+"210","Cameroon","Africa","2011",58.07690148
+"211","Cameroon","Africa","2012",62.776697
+"212","Cameroon","Africa","2013",58.18633815
+"213","Cameroon","Africa","2014",56.71530558
+"214","Cameroon","Africa","2015",77.05174298
+"215","Cameroon","Africa","2016",73.20529127
+"216","Cameroon","Africa","2017",72.79309622
+"217","Colombia","South America","2010",21.49784542
+"218","Colombia","South America","2011",21.36777875
+"219","Colombia","South America","2012",20.53663622
+"220","Colombia","South America","2013",19.22334802
+"221","Colombia","South America","2014",18.34420526
+"222","Colombia","South America","2015",17.30028428
+"223","Colombia","South America","2016",16.58060037
+"224","Colombia","South America","2017",16.52721022
+"225","Comoros","Africa","2010",20.66635788
+"226","Comoros","Africa","2011",21.02016044
+"227","Comoros","Africa","2012",21.2526292
+"228","Comoros","Africa","2013",21.04796184
+"229","Comoros","Africa","2014",21.50207199
+"230","Comoros","Africa","2015",20.71555746
+"231","Comoros","Africa","2016",20.48272773
+"232","Comoros","Africa","2017",20.5468246
+"233","Cyprus","Europe","2010",20.08186599
+"234","Cyprus","Europe","2011",20.09096399
+"235","Cyprus","Europe","2012",19.22484321
+"236","Cyprus","Europe","2013",18.68454574
+"237","Cyprus","Europe","2014",18.29352737
+"238","Cyprus","Europe","2015",19.10134763
+"239","Cyprus","Europe","2016",16.9580216
+"240","Cyprus","Europe","2017",17.2944062
+"241","Cyprus","Asia","2010",20.08186599
+"242","Cyprus","Asia","2011",20.09096399
+"243","Cyprus","Asia","2012",19.22484321
+"244","Cyprus","Asia","2013",18.68454574
+"245","Cyprus","Asia","2014",18.29352737
+"246","Cyprus","Asia","2015",19.10134763
+"247","Cyprus","Asia","2016",16.9580216
+"248","Cyprus","Asia","2017",17.2944062
+"249","Germany","Europe","2010",15.18949496
+"250","Germany","Europe","2011",14.66422844
+"251","Germany","Europe","2012",13.57764226
+"252","Germany","Europe","2013",13.19191946
+"253","Germany","Europe","2014",12.75122057
+"254","Germany","Europe","2015",12.82609758
+"255","Germany","Europe","2016",11.93781112
+"256","Germany","Europe","2017",12.02876736
+"257","Djibouti","Africa","2010",38.24086927
+"258","Djibouti","Africa","2011",40.44183546
+"259","Djibouti","Africa","2012",39.94282079
+"260","Djibouti","Africa","2013",40.10377303
+"261","Djibouti","Africa","2014",41.25972754
+"262","Djibouti","Africa","2015",45.95080851
+"263","Djibouti","Africa","2016",45.86887513
+"264","Djibouti","Africa","2017",45.5496176
+"265","Denmark","Europe","2010",11.92914817
+"266","Denmark","Europe","2011",12.66233138
+"267","Denmark","Europe","2012",11.11552501
+"268","Denmark","Europe","2013",10.82027884
+"269","Denmark","Europe","2014",11.06670453
+"270","Denmark","Europe","2015",10.65728566
+"271","Denmark","Europe","2016",10.09597196
+"272","Denmark","Europe","2017",10.02965344
+"273","Algeria","Africa","2010",33.63582026
+"274","Algeria","Africa","2011",33.83404774
+"275","Algeria","Africa","2012",33.3668262
+"276","Algeria","Africa","2013",34.24532791
+"277","Algeria","Africa","2014",35.56391718
+"278","Algeria","Africa","2015",36.08916357
+"279","Algeria","Africa","2016",39.85327385
+"280","Algeria","Africa","2017",38.8840107
+"281","Ecuador","South America","2010",19.97918812
+"282","Ecuador","South America","2011",19.321995
+"283","Ecuador","South America","2012",19.55771048
+"284","Ecuador","South America","2013",18.1186093
+"285","Ecuador","South America","2014",16.23418751
+"286","Ecuador","South America","2015",15.69970761
+"287","Ecuador","South America","2016",14.98157801
+"288","Ecuador","South America","2017",14.88610066
+"289","Eritrea","Africa","2010",45.2271386
+"290","Eritrea","Africa","2011",45.25744675
+"291","Eritrea","Africa","2012",46.13384645
+"292","Eritrea","Africa","2013",47.62781596
+"293","Eritrea","Africa","2014",44.37494629
+"294","Eritrea","Africa","2015",49.82891214
+"295","Eritrea","Africa","2016",48.67093668
+"296","Eritrea","Africa","2017",48.03019868
+"297","Spain","Europe","2010",11.3493291
+"298","Spain","Europe","2011",12.03799789
+"299","Spain","Europe","2012",11.14962332
+"300","Spain","Europe","2013",10.74258206
+"301","Spain","Europe","2014",10.07458883
+"302","Spain","Europe","2015",10.44910241
+"303","Spain","Europe","2016",9.704138553
+"304","Spain","Europe","2017",9.697927863
+"305","Estonia","Europe","2010",8.519848763
+"306","Estonia","Europe","2011",8.442558919
+"307","Estonia","Europe","2012",7.810698651
+"308","Estonia","Europe","2013",7.482813578
+"309","Estonia","Europe","2014",7.705552572
+"310","Estonia","Europe","2015",7.003727673
+"311","Estonia","Europe","2016",6.821448031
+"312","Estonia","Europe","2017",6.732124015
+"313","Ethiopia","Africa","2010",35.63414541
+"314","Ethiopia","Africa","2011",36.31794195
+"315","Ethiopia","Africa","2012",35.97384213
+"316","Ethiopia","Africa","2013",35.88420536
+"317","Ethiopia","Africa","2014",35.04359745
+"318","Ethiopia","Africa","2015",38.85860469
+"319","Ethiopia","Africa","2016",39.24503758
+"320","Ethiopia","Africa","2017",38.97873776
+"321","Finland","Europe","2010",7.190331396
+"322","Finland","Europe","2011",7.283699708
+"323","Finland","Europe","2012",6.601133581
+"324","Finland","Europe","2013",6.278689198
+"325","Finland","Europe","2014",6.468639868
+"326","Finland","Europe","2015",6.063834353
+"327","Finland","Europe","2016",5.893757483
+"328","Finland","Europe","2017",5.861331001
+"329","Fiji","Oceania","2010",13.53381346
+"330","Fiji","Oceania","2011",13.83646142
+"331","Fiji","Oceania","2012",12.85205328
+"332","Fiji","Oceania","2013",12.14461761
+"333","Fiji","Oceania","2014",11.92289283
+"334","Fiji","Oceania","2015",11.64194513
+"335","Fiji","Oceania","2016",11.05934316
+"336","Fiji","Oceania","2017",10.8401599
+"337","France","Europe","2010",14.84562127
+"338","France","Europe","2011",14.87801926
+"339","France","Europe","2012",13.83475371
+"340","France","Europe","2013",13.5943087
+"341","France","Europe","2014",12.28970307
+"342","France","Europe","2015",12.74570798
+"343","France","Europe","2016",11.85518422
+"344","France","Europe","2017",11.81496362
+"345","Gabon","Africa","2010",40.27757856
+"346","Gabon","Africa","2011",41.13028375
+"347","Gabon","Africa","2012",40.8140906
+"348","Gabon","Africa","2013",40.72566252
+"349","Gabon","Africa","2014",41.31956969
+"350","Gabon","Africa","2015",44.09590117
+"351","Gabon","Africa","2016",43.72065291
+"352","Gabon","Africa","2017",44.38554846
+"353","Ghana","Africa","2010",27.36828359
+"354","Ghana","Africa","2011",28.21169897
+"355","Ghana","Africa","2012",28.89742723
+"356","Ghana","Africa","2013",27.81534006
+"357","Ghana","Africa","2014",25.8895233
+"358","Ghana","Africa","2015",34.68190071
+"359","Ghana","Africa","2016",36.25265622
+"360","Ghana","Africa","2017",34.7135141
+"361","Guinea","Africa","2010",21.97102786
+"362","Guinea","Africa","2011",22.44535934
+"363","Guinea","Africa","2012",22.98996509
+"364","Guinea","Africa","2013",21.25856145
+"365","Guinea","Africa","2014",21.19667275
+"366","Guinea","Africa","2015",26.94288524
+"367","Guinea","Africa","2016",24.77771417
+"368","Guinea","Africa","2017",26.0624902
+"369","Guinea-Bissau","Africa","2010",26.83635957
+"370","Guinea-Bissau","Africa","2011",27.38943995
+"371","Guinea-Bissau","Africa","2012",27.0902178
+"372","Guinea-Bissau","Africa","2013",26.52420728
+"373","Guinea-Bissau","Africa","2014",26.94095978
+"374","Guinea-Bissau","Africa","2015",31.79127202
+"375","Guinea-Bissau","Africa","2016",29.58586773
+"376","Guinea-Bissau","Africa","2017",29.77470228
+"377","Equatorial Guinea","Africa","2010",46.18648655
+"378","Equatorial Guinea","Africa","2011",46.85258767
+"379","Equatorial Guinea","Africa","2012",45.23237247
+"380","Equatorial Guinea","Africa","2013",43.62579322
+"381","Equatorial Guinea","Africa","2014",44.30179969
+"382","Equatorial Guinea","Africa","2015",52.63437057
+"383","Equatorial Guinea","Africa","2016",54.50903017
+"384","Equatorial Guinea","Africa","2017",53.24062104
+"385","Greece","Europe","2010",19.06108814
+"386","Greece","Europe","2011",20.00154124
+"387","Greece","Europe","2012",18.4207689
+"388","Greece","Europe","2013",17.77941628
+"389","Greece","Europe","2014",17.36504185
+"390","Greece","Europe","2015",17.74055711
+"391","Greece","Europe","2016",16.3289203
+"392","Greece","Europe","2017",16.21826638
+"393","Guyana","South America","2010",27.31186474
+"394","Guyana","South America","2011",27.92942466
+"395","Guyana","South America","2012",26.90129942
+"396","Guyana","South America","2013",24.85550257
+"397","Guyana","South America","2014",23.64826569
+"398","Guyana","South America","2015",23.88788174
+"399","Guyana","South America","2016",22.37149881
+"400","Guyana","South America","2017",22.37557463
+"401","Croatia","Europe","2010",21.33471864
+"402","Croatia","Europe","2011",21.96600369
+"403","Croatia","Europe","2012",20.2024228
+"404","Croatia","Europe","2013",19.58696201
+"405","Croatia","Europe","2014",18.43310352
+"406","Croatia","Europe","2015",19.20668151
+"407","Croatia","Europe","2016",17.78931891
+"408","Croatia","Europe","2017",17.90177229
+"409","Hungary","Europe","2010",19.13552438
+"410","Hungary","Europe","2011",19.36069
+"411","Hungary","Europe","2012",17.52996008
+"412","Hungary","Europe","2013",17.2318312
+"413","Hungary","Europe","2014",16.31532793
+"414","Hungary","Europe","2015",17.23213014
+"415","Hungary","Europe","2016",15.88535024
+"416","Hungary","Europe","2017",15.92604819
+"417","Indonesia","Asia","2010",18.16928033
+"418","Indonesia","Asia","2011",18.04965117
+"419","Indonesia","Asia","2012",18.17016951
+"420","Indonesia","Asia","2013",16.87918132
+"421","Indonesia","Asia","2014",16.45463183
+"422","Indonesia","Asia","2015",16.64028042
+"423","Indonesia","Asia","2016",16.38415363
+"424","Indonesia","Asia","2017",16.5026533
+"425","India","Asia","2010",95.75817945
+"426","India","Asia","2011",97.59937863
+"427","India","Asia","2012",88.1694406
+"428","India","Asia","2013",91.80479161
+"429","India","Asia","2014",89.62238269
+"430","India","Asia","2015",89.3033343
+"431","India","Asia","2016",89.67217693
+"432","India","Asia","2017",90.87321047
+"433","Iraq","Asia","2010",68.71140482
+"434","Iraq","Asia","2011",66.36260979
+"435","Iraq","Asia","2012",66.84207687
+"436","Iraq","Asia","2013",63.80269591
+"437","Iraq","Asia","2014",56.56703027
+"438","Iraq","Asia","2015",66.26503791
+"439","Iraq","Asia","2016",63.95479607
+"440","Iraq","Asia","2017",61.63623571
+"441","Iceland","Europe","2010",7.856536667
+"442","Iceland","Europe","2011",8.098884846
+"443","Iceland","Europe","2012",7.33692926
+"444","Iceland","Europe","2013",7.171207035
+"445","Iceland","Europe","2014",6.948896646
+"446","Iceland","Europe","2015",6.927968941
+"447","Iceland","Europe","2016",6.60765416
+"448","Iceland","Europe","2017",6.481147263
+"449","Israel","Asia","2010",24.01923772
+"450","Israel","Asia","2011",23.90468673
+"451","Israel","Asia","2012",23.03884904
+"452","Israel","Asia","2013",22.94633022
+"453","Israel","Asia","2014",22.05914688
+"454","Israel","Asia","2015",22.7797827
+"455","Israel","Asia","2016",20.76570151
+"456","Israel","Asia","2017",21.38110224
+"457","Italy","Europe","2010",19.02523065
+"458","Italy","Europe","2011",19.99426671
+"459","Italy","Europe","2012",18.10524741
+"460","Italy","Europe","2013",17.75772244
+"461","Italy","Europe","2014",17.76927084
+"462","Italy","Europe","2015",17.89144517
+"463","Italy","Europe","2016",16.49037374
+"464","Italy","Europe","2017",16.75071194
+"465","Jordan","Asia","2010",33.55056636
+"466","Jordan","Asia","2011",33.01726148
+"467","Jordan","Asia","2012",33.01693524
+"468","Jordan","Asia","2013",33.41761072
+"469","Jordan","Asia","2014",33.20542058
+"470","Jordan","Asia","2015",34.30544926
+"471","Jordan","Asia","2016",33.17661668
+"472","Jordan","Asia","2017",33.00608118
+"473","Kazakhstan","Europe","2010",15.91449319
+"474","Kazakhstan","Europe","2011",15.24383546
+"475","Kazakhstan","Europe","2012",14.48103768
+"476","Kazakhstan","Europe","2013",14.5985643
+"477","Kazakhstan","Europe","2014",13.74975351
+"478","Kazakhstan","Europe","2015",14.38480208
+"479","Kazakhstan","Europe","2016",13.08443846
+"480","Kazakhstan","Europe","2017",13.82428836
+"481","Kazakhstan","Asia","2010",15.91449319
+"482","Kazakhstan","Asia","2011",15.24383546
+"483","Kazakhstan","Asia","2012",14.48103768
+"484","Kazakhstan","Asia","2013",14.5985643
+"485","Kazakhstan","Asia","2014",13.74975351
+"486","Kazakhstan","Asia","2015",14.38480208
+"487","Kazakhstan","Asia","2016",13.08443846
+"488","Kazakhstan","Asia","2017",13.82428836
+"489","Kenya","Africa","2010",28.15477084
+"490","Kenya","Africa","2011",28.66288466
+"491","Kenya","Africa","2012",29.37227988
+"492","Kenya","Africa","2013",28.93534528
+"493","Kenya","Africa","2014",28.94935013
+"494","Kenya","Africa","2015",28.53628017
+"495","Kenya","Africa","2016",28.58337727
+"496","Kenya","Africa","2017",28.57837427
+"497","Cambodia","Asia","2010",31.34313632
+"498","Cambodia","Asia","2011",30.91962359
+"499","Cambodia","Asia","2012",31.28373261
+"500","Cambodia","Asia","2013",30.33652957
+"501","Cambodia","Asia","2014",28.58336628
+"502","Cambodia","Asia","2015",26.76923854
+"503","Cambodia","Asia","2016",25.20287478
+"504","Cambodia","Asia","2017",25.61429187
+"505","Kiribati","Oceania","2010",13.17504079
+"506","Kiribati","Oceania","2011",13.35815463
+"507","Kiribati","Oceania","2012",12.59423175
+"508","Kiribati","Oceania","2013",12.32529751
+"509","Kiribati","Oceania","2014",11.39374232
+"510","Kiribati","Oceania","2015",11.51431847
+"511","Kiribati","Oceania","2016",10.53783926
+"512","Kiribati","Oceania","2017",10.64085586
+"513","Kuwait","Asia","2010",62.74398094
+"514","Kuwait","Asia","2011",62.82540677
+"515","Kuwait","Asia","2012",64.07091103
+"516","Kuwait","Asia","2013",62.61130895
+"517","Kuwait","Asia","2014",55.62390422
+"518","Kuwait","Asia","2015",65.40607715
+"519","Kuwait","Asia","2016",60.84385161
+"520","Kuwait","Asia","2017",60.74515954
+"521","Lebanon","Asia","2010",30.89212513
+"522","Lebanon","Asia","2011",30.06910747
+"523","Lebanon","Asia","2012",30.10805188
+"524","Lebanon","Asia","2013",30.58809767
+"525","Lebanon","Asia","2014",30.44456692
+"526","Lebanon","Asia","2015",31.22929528
+"527","Lebanon","Asia","2016",30.17186865
+"528","Lebanon","Asia","2017",30.62111051
+"529","Liberia","Africa","2010",15.24919691
+"530","Liberia","Africa","2011",16.14705151
+"531","Liberia","Africa","2012",16.28820747
+"532","Liberia","Africa","2013",15.38285732
+"533","Liberia","Africa","2014",14.94227071
+"534","Liberia","Africa","2015",18.21280418
+"535","Liberia","Africa","2016",17.88677836
+"536","Liberia","Africa","2017",17.98411246
+"537","Sri Lanka","Asia","2010",31.03378115
+"538","Sri Lanka","Asia","2011",31.23207466
+"539","Sri Lanka","Asia","2012",30.08397283
+"540","Sri Lanka","Asia","2013",28.89822769
+"541","Sri Lanka","Asia","2014",26.92277652
+"542","Sri Lanka","Asia","2015",25.33734371
+"543","Sri Lanka","Asia","2016",14.02544523
+"544","Sri Lanka","Asia","2017",11.09961724
+"545","Lesotho","Africa","2010",32.24059762
+"546","Lesotho","Africa","2011",31.3547412
+"547","Lesotho","Africa","2012",31.21324307
+"548","Lesotho","Africa","2013",32.14869782
+"549","Lesotho","Africa","2014",33.08010261
+"550","Lesotho","Africa","2015",30.88497707
+"551","Lesotho","Africa","2016",28.33683335
+"552","Lesotho","Africa","2017",28.02865352
+"553","Lithuania","Europe","2010",14.97106496
+"554","Lithuania","Europe","2011",14.50968278
+"555","Lithuania","Europe","2012",13.78452468
+"556","Lithuania","Europe","2013",12.98119203
+"557","Lithuania","Europe","2014",12.84519425
+"558","Lithuania","Europe","2015",12.45503512
+"559","Lithuania","Europe","2016",11.82161558
+"560","Lithuania","Europe","2017",11.85328236
+"561","Luxembourg","Europe","2010",12.95878369
+"562","Luxembourg","Europe","2011",12.68599568
+"563","Luxembourg","Europe","2012",11.77557609
+"564","Luxembourg","Europe","2013",11.6053841
+"565","Luxembourg","Europe","2014",10.85761339
+"566","Luxembourg","Europe","2015",11.00665465
+"567","Luxembourg","Europe","2016",10.31198129
+"568","Luxembourg","Europe","2017",10.3646374
+"569","Latvia","Europe","2010",17.11506451
+"570","Latvia","Europe","2011",16.5726763
+"571","Latvia","Europe","2012",15.59855973
+"572","Latvia","Europe","2013",14.88430819
+"573","Latvia","Europe","2014",14.8790851
+"574","Latvia","Europe","2015",13.9682016
+"575","Latvia","Europe","2016",13.44747197
+"576","Latvia","Europe","2017",13.42645752
+"577","Morocco","Africa","2010",29.6489603
+"578","Morocco","Africa","2011",29.26656426
+"579","Morocco","Africa","2012",27.79028358
+"580","Morocco","Africa","2013",29.25951913
+"581","Morocco","Africa","2014",29.94944999
+"582","Morocco","Africa","2015",31.44008691
+"583","Morocco","Africa","2016",32.93537423
+"584","Morocco","Africa","2017",32.59354146
+"585","Moldova","Europe","2010",19.11610415
+"586","Moldova","Europe","2011",19.92486817
+"587","Moldova","Europe","2012",18.40928474
+"588","Moldova","Europe","2013",17.43239973
+"589","Moldova","Europe","2014",16.72646105
+"590","Moldova","Europe","2015",17.07913959
+"591","Moldova","Europe","2016",16.36379754
+"592","Moldova","Europe","2017",16.25103271
+"593","Madagascar","Africa","2010",22.66201053
+"594","Madagascar","Africa","2011",23.36285963
+"595","Madagascar","Africa","2012",22.71642527
+"596","Madagascar","Africa","2013",23.90916176
+"597","Madagascar","Africa","2014",23.51776666
+"598","Madagascar","Africa","2015",22.95040117
+"599","Madagascar","Africa","2016",22.89570824
+"600","Madagascar","Africa","2017",22.54228288
+"601","Maldives","Asia","2010",11.30982939
+"602","Maldives","Asia","2011",11.78963462
+"603","Maldives","Asia","2012",11.1574823
+"604","Maldives","Asia","2013",10.56967928
+"605","Maldives","Asia","2014",9.921230863
+"606","Maldives","Asia","2015",9.37394394
+"607","Maldives","Asia","2016",7.972428925
+"608","Maldives","Asia","2017",7.795820799
+"609","Marshall Islands","Oceania","2010",12.94670836
+"610","Marshall Islands","Oceania","2011",12.93217057
+"611","Marshall Islands","Oceania","2012",12.12353358
+"612","Marshall Islands","Oceania","2013",11.87438859
+"613","Marshall Islands","Oceania","2014",11.07022018
+"614","Marshall Islands","Oceania","2015",10.83766846
+"615","Marshall Islands","Oceania","2016",10.15200199
+"616","Marshall Islands","Oceania","2017",10.24133222
+"617","Mali","Africa","2010",36.39765973
+"618","Mali","Africa","2011",35.14164437
+"619","Mali","Africa","2012",34.7002263
+"620","Mali","Africa","2013",32.30682338
+"621","Mali","Africa","2014",33.91611574
+"622","Mali","Africa","2015",41.92692766
+"623","Mali","Africa","2016",38.48039528
+"624","Mali","Africa","2017",38.52660616
+"625","Malta","Europe","2010",16.4493999
+"626","Malta","Europe","2011",16.64430398
+"627","Malta","Europe","2012",15.39716095
+"628","Malta","Europe","2013",15.28194422
+"629","Malta","Europe","2014",14.43540357
+"630","Malta","Europe","2015",14.72246254
+"631","Malta","Europe","2016",13.81139444
+"632","Malta","Europe","2017",13.90954337
+"633","Myanmar","Asia","2010",44.05611525
+"634","Myanmar","Asia","2011",43.61990347
+"635","Myanmar","Asia","2012",42.5228124
+"636","Myanmar","Asia","2013",42.88286944
+"637","Myanmar","Asia","2014",40.28896854
+"638","Myanmar","Asia","2015",38.51378205
+"639","Myanmar","Asia","2016",36.033701
+"640","Myanmar","Asia","2017",35.55745292
+"641","Montenegro","Europe","2010",25.0554063
+"642","Montenegro","Europe","2011",26.62922388
+"643","Montenegro","Europe","2012",24.68030289
+"644","Montenegro","Europe","2013",23.27422599
+"645","Montenegro","Europe","2014",21.94705168
+"646","Montenegro","Europe","2015",22.55969129
+"647","Montenegro","Europe","2016",20.92405137
+"648","Montenegro","Europe","2017",20.78181355
+"649","Northern Mariana Islands","Oceania","2010",11.926381
+"650","Northern Mariana Islands","Oceania","2011",12.19962657
+"651","Northern Mariana Islands","Oceania","2012",11.43999611
+"652","Northern Mariana Islands","Oceania","2013",10.96502021
+"653","Northern Mariana Islands","Oceania","2014",10.3134722
+"654","Northern Mariana Islands","Oceania","2015",10.39771204
+"655","Northern Mariana Islands","Oceania","2016",9.91775575
+"656","Northern Mariana Islands","Oceania","2017",9.892981129
+"657","Mozambique","Africa","2010",23.56146872
+"658","Mozambique","Africa","2011",22.6090715
+"659","Mozambique","Africa","2012",22.86760109
+"660","Mozambique","Africa","2013",22.63615999
+"661","Mozambique","Africa","2014",22.61416414
+"662","Mozambique","Africa","2015",21.90588194
+"663","Mozambique","Africa","2016",21.47182554
+"664","Mozambique","Africa","2017",21.29869546
+"665","Mauritania","Africa","2010",39.63741338
+"666","Mauritania","Africa","2011",40.04314497
+"667","Mauritania","Africa","2012",42.34351169
+"668","Mauritania","Africa","2013",40.21579155
+"669","Mauritania","Africa","2014",43.11078408
+"670","Mauritania","Africa","2015",49.49825592
+"671","Mauritania","Africa","2016",46.66758772
+"672","Mauritania","Africa","2017",47.42299178
+"673","Mauritius","Africa","2010",15.1947729
+"674","Mauritius","Africa","2011",15.20170165
+"675","Mauritius","Africa","2012",15.24585596
+"676","Mauritius","Africa","2013",15.55617651
+"677","Mauritius","Africa","2014",15.29264823
+"678","Mauritius","Africa","2015",14.44195579
+"679","Mauritius","Africa","2016",14.34637947
+"680","Mauritius","Africa","2017",14.45782732
+"681","Malawi","Africa","2010",25.6961984
+"682","Malawi","Africa","2011",25.16500891
+"683","Malawi","Africa","2012",25.73840151
+"684","Malawi","Africa","2013",24.68347878
+"685","Malawi","Africa","2014",25.19822884
+"686","Malawi","Africa","2015",24.53742932
+"687","Malawi","Africa","2016",23.09261542
+"688","Malawi","Africa","2017",23.56592147
+"689","Niger","Africa","2010",69.15017669
+"690","Niger","Africa","2011",72.98276678
+"691","Niger","Africa","2012",72.54464459
+"692","Niger","Africa","2013",63.03171725
+"693","Niger","Africa","2014",60.54135722
+"694","Niger","Africa","2015",87.28128201
+"695","Niger","Africa","2016",87.70847201
+"696","Niger","Africa","2017",94.05381768
+"697","Nigeria","Africa","2010",52.60906391
+"698","Nigeria","Africa","2011",50.97308923
+"699","Nigeria","Africa","2012",56.1296377
+"700","Nigeria","Africa","2013",49.74068894
+"701","Nigeria","Africa","2014",48.63337361
+"702","Nigeria","Africa","2015",75.39899187
+"703","Nigeria","Africa","2016",71.369601
+"704","Nigeria","Africa","2017",71.79817438
+"705","Netherlands","Europe","2010",15.23243025
+"706","Netherlands","Europe","2011",14.98813864
+"707","Netherlands","Europe","2012",13.81241373
+"708","Netherlands","Europe","2013",13.04314511
+"709","Netherlands","Europe","2014",12.82879707
+"710","Netherlands","Europe","2015",12.93210515
+"711","Netherlands","Europe","2016",12.02524278
+"712","Netherlands","Europe","2017",12.03440807
+"713","Norway","Europe","2010",8.341507223
+"714","Norway","Europe","2011",8.853510781
+"715","Norway","Europe","2012",7.925281241
+"716","Norway","Europe","2013",7.633674824
+"717","Norway","Europe","2014",7.670895927
+"718","Norway","Europe","2015",7.242775336
+"719","Norway","Europe","2016",6.95945733
+"720","Norway","Europe","2017",6.956519803
+"721","Nepal","Asia","2010",100.7844279
+"722","Nepal","Asia","2011",100.7660607
+"723","Nepal","Asia","2012",96.96329149
+"724","Nepal","Asia","2013",95.31398561
+"725","Nepal","Asia","2014",98.11601657
+"726","Nepal","Asia","2015",96.25276818
+"727","Nepal","Asia","2016",98.05471403
+"728","Nepal","Asia","2017",99.73437372
+"729","Oman","Asia","2010",37.51533394
+"730","Oman","Asia","2011",39.10379482
+"731","Oman","Asia","2012",40.73328348
+"732","Oman","Asia","2013",41.0527687
+"733","Oman","Asia","2014",37.71088051
+"734","Oman","Asia","2015",42.62758972
+"735","Oman","Asia","2016",41.78219181
+"736","Oman","Asia","2017",41.11523827
+"737","Pakistan","Asia","2010",68.00519044
+"738","Pakistan","Asia","2011",68.54493561
+"739","Pakistan","Asia","2012",62.37664629
+"740","Pakistan","Asia","2013",61.02216287
+"741","Pakistan","Asia","2014",59.51836271
+"742","Pakistan","Asia","2015",60.08589291
+"743","Pakistan","Asia","2016",58.63276393
+"744","Pakistan","Asia","2017",58.28241877
+"745","Peru","South America","2010",31.50257401
+"746","Peru","South America","2011",31.57116569
+"747","Peru","South America","2012",30.49445583
+"748","Peru","South America","2013",29.74308641
+"749","Peru","South America","2014",27.5826726
+"750","Peru","South America","2015",26.03726793
+"751","Peru","South America","2016",25.54274604
+"752","Peru","South America","2017",24.78672805
+"753","Philippines","Asia","2010",23.59231552
+"754","Philippines","Asia","2011",22.75483447
+"755","Philippines","Asia","2012",22.54958361
+"756","Philippines","Asia","2013",21.21628777
+"757","Philippines","Asia","2014",20.25958716
+"758","Philippines","Asia","2015",19.58154202
+"759","Philippines","Asia","2016",18.22692834
+"760","Philippines","Asia","2017",18.06979891
+"761","Papua New Guinea","Oceania","2010",14.94135871
+"762","Papua New Guinea","Oceania","2011",15.51903383
+"763","Papua New Guinea","Oceania","2012",14.60653316
+"764","Papua New Guinea","Oceania","2013",13.95262793
+"765","Papua New Guinea","Oceania","2014",13.24529823
+"766","Papua New Guinea","Oceania","2015",13.2617261
+"767","Papua New Guinea","Oceania","2016",12.61505599
+"768","Papua New Guinea","Oceania","2017",12.29441826
+"769","Poland","Europe","2010",27.17650018
+"770","Poland","Europe","2011",26.37250707
+"771","Poland","Europe","2012",24.26397739
+"772","Poland","Europe","2013",22.9287237
+"773","Poland","Europe","2014",22.21089179
+"774","Poland","Europe","2015",22.69131805
+"775","Poland","Europe","2016",20.9757679
+"776","Poland","Europe","2017",20.87782222
+"777","Portugal","Europe","2010",10.07688693
+"778","Portugal","Europe","2011",10.35501263
+"779","Portugal","Europe","2012",9.484802799
+"780","Portugal","Europe","2013",9.432044129
+"781","Portugal","Europe","2014",8.78479289
+"782","Portugal","Europe","2015",8.823283435
+"783","Portugal","Europe","2016",8.052763686
+"784","Portugal","Europe","2017",8.160752248
+"785","Paraguay","South America","2010",15.10292317
+"786","Paraguay","South America","2011",14.59811855
+"787","Paraguay","South America","2012",13.94830615
+"788","Paraguay","South America","2013",12.92656928
+"789","Paraguay","South America","2014",12.6410755
+"790","Paraguay","South America","2015",13.03807402
+"791","Paraguay","South America","2016",11.64932248
+"792","Paraguay","South America","2017",11.90908085
+"793","Qatar","Asia","2010",84.12290235
+"794","Qatar","Asia","2011",81.2730055
+"795","Qatar","Asia","2012",89.24697128
+"796","Qatar","Asia","2013",88.89051503
+"797","Qatar","Asia","2014",78.83284035
+"798","Qatar","Asia","2015",94.40389119
+"799","Qatar","Asia","2016",88.22244652
+"800","Qatar","Asia","2017",91.18732793
+"801","Rwanda","Africa","2010",41.44091192
+"802","Rwanda","Africa","2011",42.68095937
+"803","Rwanda","Africa","2012",44.56089624
+"804","Rwanda","Africa","2013",44.41158508
+"805","Rwanda","Africa","2014",42.21148744
+"806","Rwanda","Africa","2015",42.61448971
+"807","Rwanda","Africa","2016",42.84380209
+"808","Rwanda","Africa","2017",43.21021716
+"809","Saudi Arabia","Asia","2010",81.69918208
+"810","Saudi Arabia","Asia","2011",82.41903191
+"811","Saudi Arabia","Asia","2012",85.51330311
+"812","Saudi Arabia","Asia","2013",83.63099223
+"813","Saudi Arabia","Asia","2014",75.60844062
+"814","Saudi Arabia","Asia","2015",97.432289
+"815","Saudi Arabia","Asia","2016",84.46577505
+"816","Saudi Arabia","Asia","2017",87.94544668
+"817","Sudan","Africa","2010",47.26205558
+"818","Sudan","Africa","2011",51.15242727
+"819","Sudan","Africa","2012",49.68593895
+"820","Sudan","Africa","2013",48.02814491
+"821","Sudan","Africa","2014",48.14174218
+"822","Sudan","Africa","2015",58.90478573
+"823","Sudan","Africa","2016",54.14727633
+"824","Sudan","Africa","2017",55.37083444
+"825","Senegal","Africa","2010",34.98538395
+"826","Senegal","Africa","2011",35.93539952
+"827","Senegal","Africa","2012",36.16775596
+"828","Senegal","Africa","2013",34.0182249
+"829","Senegal","Africa","2014",36.82683776
+"830","Senegal","Africa","2015",44.34080072
+"831","Senegal","Africa","2016",38.69494655
+"832","Senegal","Africa","2017",40.6958259
+"833","Singapore","Asia","2010",20.60946174
+"834","Singapore","Asia","2011",19.34942078
+"835","Singapore","Asia","2012",20.88649301
+"836","Singapore","Asia","2013",18.70707148
+"837","Singapore","Asia","2014",17.40887705
+"838","Singapore","Asia","2015",20.66338947
+"839","Singapore","Asia","2016",18.79780262
+"840","Singapore","Asia","2017",19.0782565
+"841","Sierra Leone","Africa","2010",18.52888841
+"842","Sierra Leone","Africa","2011",18.74315581
+"843","Sierra Leone","Africa","2012",20.10129417
+"844","Sierra Leone","Africa","2013",18.43566679
+"845","Sierra Leone","Africa","2014",17.69823222
+"846","Sierra Leone","Africa","2015",22.52859793
+"847","Sierra Leone","Africa","2016",21.34393233
+"848","Sierra Leone","Africa","2017",21.62594668
+"849","Somalia","Africa","2010",29.00018535
+"850","Somalia","Africa","2011",31.23015581
+"851","Somalia","Africa","2012",31.58710495
+"852","Somalia","Africa","2013",29.5515726
+"853","Somalia","Africa","2014",30.40108067
+"854","Somalia","Africa","2015",32.01839243
+"855","Somalia","Africa","2016",31.75174608
+"856","Somalia","Africa","2017",32.03458423
+"857","Serbia","Europe","2010",29.10058899
+"858","Serbia","Europe","2011",31.03402776
+"859","Serbia","Europe","2012",28.5847484
+"860","Serbia","Europe","2013",27.43078591
+"861","Serbia","Europe","2014",26.49207255
+"862","Serbia","Europe","2015",26.95437789
+"863","Serbia","Europe","2016",24.78062162
+"864","Serbia","Europe","2017",24.72635819
+"865","Sao Tome and Principe","Africa","2010",27.12662111
+"866","Sao Tome and Principe","Africa","2011",27.86024402
+"867","Sao Tome and Principe","Africa","2012",25.91584337
+"868","Sao Tome and Principe","Africa","2013",27.65881666
+"869","Sao Tome and Principe","Africa","2014",27.86230189
+"870","Sao Tome and Principe","Africa","2015",28.43209352
+"871","Sao Tome and Principe","Africa","2016",28.6665386
+"872","Sao Tome and Principe","Africa","2017",28.53958436
+"873","Suriname","South America","2010",29.83188899
+"874","Suriname","South America","2011",31.03872183
+"875","Suriname","South America","2012",29.1336101
+"876","Suriname","South America","2013",28.80831685
+"877","Suriname","South America","2014",25.99884713
+"878","Suriname","South America","2015",25.9732844
+"879","Suriname","South America","2016",25.31697817
+"880","Suriname","South America","2017",24.78001054
+"881","Slovenia","Europe","2010",18.6816561
+"882","Slovenia","Europe","2011",19.5141379
+"883","Slovenia","Europe","2012",17.67007906
+"884","Slovenia","Europe","2013",17.57137864
+"885","Slovenia","Europe","2014",16.63270074
+"886","Slovenia","Europe","2015",17.12815192
+"887","Slovenia","Europe","2016",15.91273727
+"888","Slovenia","Europe","2017",16.02397998
+"889","Sweden","Europe","2010",7.209759036
+"890","Sweden","Europe","2011",7.391221331
+"891","Sweden","Europe","2012",6.627941996
+"892","Sweden","Europe","2013",6.431168897
+"893","Sweden","Europe","2014",6.959197681
+"894","Sweden","Europe","2015",6.322498333
+"895","Sweden","Europe","2016",6.114258462
+"896","Sweden","Europe","2017",6.18466509
+"897","Seychelles","Africa","2010",21.09126804
+"898","Seychelles","Africa","2011",21.61035805
+"899","Seychelles","Africa","2012",21.49533511
+"900","Seychelles","Africa","2013",20.96973692
+"901","Seychelles","Africa","2014",20.97051747
+"902","Seychelles","Africa","2015",20.05359496
+"903","Seychelles","Africa","2016",20.40382446
+"904","Seychelles","Africa","2017",20.17864936
+"905","Chad","Africa","2010",56.58662749
+"906","Chad","Africa","2011",55.19515958
+"907","Chad","Africa","2012",58.67538804
+"908","Chad","Africa","2013",53.0564069
+"909","Chad","Africa","2014",51.24716851
+"910","Chad","Africa","2015",68.68239375
+"911","Chad","Africa","2016",64.77076912
+"912","Chad","Africa","2017",66.0292055
+"913","Togo","Africa","2010",30.52294447
+"914","Togo","Africa","2011",30.85480627
+"915","Togo","Africa","2012",31.36920959
+"916","Togo","Africa","2013",29.56592775
+"917","Togo","Africa","2014",28.93629146
+"918","Togo","Africa","2015",38.35682101
+"919","Togo","Africa","2016",37.05110734
+"920","Togo","Africa","2017",35.73133561
+"921","Thailand","Asia","2010",31.56539944
+"922","Thailand","Asia","2011",31.60962923
+"923","Thailand","Asia","2012",31.52531464
+"924","Thailand","Asia","2013",31.17472364
+"925","Thailand","Asia","2014",29.36464114
+"926","Thailand","Asia","2015",27.34456692
+"927","Thailand","Asia","2016",26.25805467
+"928","Thailand","Asia","2017",26.25672656
+"929","Tajikistan","Asia","2010",50.40541765
+"930","Tajikistan","Asia","2011",54.319961
+"931","Tajikistan","Asia","2012",48.98960355
+"932","Tajikistan","Asia","2013",49.55313763
+"933","Tajikistan","Asia","2014",46.48082923
+"934","Tajikistan","Asia","2015",47.79297353
+"935","Tajikistan","Asia","2016",43.37770931
+"936","Tajikistan","Asia","2017",46.15218537
+"937","Timor-Leste","Asia","2010",23.49239604
+"938","Timor-Leste","Asia","2011",23.75671867
+"939","Timor-Leste","Asia","2012",22.46662382
+"940","Timor-Leste","Asia","2013",21.96462302
+"941","Timor-Leste","Asia","2014",20.45010047
+"942","Timor-Leste","Asia","2015",20.62318671
+"943","Timor-Leste","Asia","2016",20.01790265
+"944","Timor-Leste","Asia","2017",19.25720917
+"945","Tonga","Oceania","2010",13.53194839
+"946","Tonga","Oceania","2011",13.5170884
+"947","Tonga","Oceania","2012",12.43817111
+"948","Tonga","Oceania","2013",12.14771339
+"949","Tonga","Oceania","2014",12.05763996
+"950","Tonga","Oceania","2015",11.31296782
+"951","Tonga","Oceania","2016",10.95142376
+"952","Tonga","Oceania","2017",10.78547886
+"953","Tunisia","Africa","2010",35.54548859
+"954","Tunisia","Africa","2011",33.86835212
+"955","Tunisia","Africa","2012",32.81580557
+"956","Tunisia","Africa","2013",35.65414466
+"957","Tunisia","Africa","2014",34.69205883
+"958","Tunisia","Africa","2015",36.30424932
+"959","Tunisia","Africa","2016",38.45049077
+"960","Tunisia","Africa","2017",37.65599375
+"961","Turkey","Europe","2010",43.82122875
+"962","Turkey","Europe","2011",40.54510881
+"963","Turkey","Europe","2012",41.92091892
+"964","Turkey","Europe","2013",42.06258311
+"965","Turkey","Europe","2014",42.59577121
+"966","Turkey","Europe","2015",45.4015556
+"967","Turkey","Europe","2016",44.48275839
+"968","Turkey","Europe","2017",44.31152568
+"969","Turkey","Asia","2010",43.82122875
+"970","Turkey","Asia","2011",40.54510881
+"971","Turkey","Asia","2012",41.92091892
+"972","Turkey","Asia","2013",42.06258311
+"973","Turkey","Asia","2014",42.59577121
+"974","Turkey","Asia","2015",45.4015556
+"975","Turkey","Asia","2016",44.48275839
+"976","Turkey","Asia","2017",44.31152568
+"977","Tanzania","Africa","2010",28.60753269
+"978","Tanzania","Africa","2011",28.72876866
+"979","Tanzania","Africa","2012",29.96984478
+"980","Tanzania","Africa","2013",29.35963299
+"981","Tanzania","Africa","2014",28.87371592
+"982","Tanzania","Africa","2015",28.2404487
+"983","Tanzania","Africa","2016",28.44356969
+"984","Tanzania","Africa","2017",29.07664051
+"985","Uganda","Africa","2010",44.75869737
+"986","Uganda","Africa","2011",47.06116817
+"987","Uganda","Africa","2012",49.62672958
+"988","Uganda","Africa","2013",47.72115871
+"989","Uganda","Africa","2014",46.93056685
+"990","Uganda","Africa","2015",48.94936019
+"991","Uganda","Africa","2016",51.94410661
+"992","Uganda","Africa","2017",50.49432132
+"993","Uruguay","South America","2010",11.02705557
+"994","Uruguay","South America","2011",11.4687322
+"995","Uruguay","South America","2012",10.5672946
+"996","Uruguay","South America","2013",10.45560559
+"997","Uruguay","South America","2014",9.926816159
+"998","Uruguay","South America","2015",9.65945432
+"999","Uruguay","South America","2016",9.197441119
+"1000","Uruguay","South America","2017",9.27488332
+"1001","Uzbekistan","Asia","2010",32.07745356
+"1002","Uzbekistan","Asia","2011",33.99383696
+"1003","Uzbekistan","Asia","2012",31.6621061
+"1004","Uzbekistan","Asia","2013",30.80519356
+"1005","Uzbekistan","Asia","2014",28.9000361
+"1006","Uzbekistan","Asia","2015",30.3943319
+"1007","Uzbekistan","Asia","2016",27.8143471
+"1008","Uzbekistan","Asia","2017",28.4559012
+"1009","Vietnam","Asia","2010",39.36539699
+"1010","Vietnam","Asia","2011",38.4869748
+"1011","Vietnam","Asia","2012",37.22745154
+"1012","Vietnam","Asia","2013",36.83590641
+"1013","Vietnam","Asia","2014",34.89601505
+"1014","Vietnam","Asia","2015",32.46644382
+"1015","Vietnam","Asia","2016",30.24131157
+"1016","Vietnam","Asia","2017",29.62672834
+"1017","Vanuatu","Oceania","2010",14.12951255
+"1018","Vanuatu","Oceania","2011",14.38296402
+"1019","Vanuatu","Oceania","2012",13.24245239
+"1020","Vanuatu","Oceania","2013",12.74069289
+"1021","Vanuatu","Oceania","2014",11.93385168
+"1022","Vanuatu","Oceania","2015",12.15721001
+"1023","Vanuatu","Oceania","2016",11.59090896
+"1024","Vanuatu","Oceania","2017",11.65277703
+"1025","Samoa","Oceania","2010",14.28809394
+"1026","Samoa","Oceania","2011",14.69309609
+"1027","Samoa","Oceania","2012",13.62788239
+"1028","Samoa","Oceania","2013",13.38252208
+"1029","Samoa","Oceania","2014",12.64355999
+"1030","Samoa","Oceania","2015",12.32179572
+"1031","Samoa","Oceania","2016",11.36629822
+"1032","Samoa","Oceania","2017",11.54802701
+"1033","South Africa","Africa","2010",27.13858684
+"1034","South Africa","Africa","2011",26.55787322
+"1035","South Africa","Africa","2012",26.57708662
+"1036","South Africa","Africa","2013",26.72926171
+"1037","South Africa","Africa","2014",26.72221238
+"1038","South Africa","Africa","2015",26.11297177
+"1039","South Africa","Africa","2016",25.14041614
+"1040","South Africa","Africa","2017",25.10220499
+"1041","Zambia","Africa","2010",28.8363786
+"1042","Zambia","Africa","2011",28.98711674
+"1043","Zambia","Africa","2012",29.74203953
+"1044","Zambia","Africa","2013",29.11222078
+"1045","Zambia","Africa","2014",28.49325189
+"1046","Zambia","Africa","2015",28.37545168
+"1047","Zambia","Africa","2016",27.35567371
+"1048","Zambia","Africa","2017",27.43803476
+"1049","Zimbabwe","Africa","2010",23.2314787
+"1050","Zimbabwe","Africa","2011",23.07421266
+"1051","Zimbabwe","Africa","2012",23.19809712
+"1052","Zimbabwe","Africa","2013",23.11108755
+"1053","Zimbabwe","Africa","2014",22.80594966
+"1054","Zimbabwe","Africa","2015",21.73370858
+"1055","Zimbabwe","Africa","2016",21.72694718
+"1056","Zimbabwe","Africa","2017",22.25167109
