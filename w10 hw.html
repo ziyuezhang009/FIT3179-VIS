@@ -1,0 +1,262 @@
+<html>
+  <head>
+    <title>Vega-Lite Bar Chart</title>
+    <meta charset="utf-8" />
+
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+
+    <style media="screen">
+      /* Add space between Vega-Embed links  */
+      .vega-actions a {
+        margin-right: 5px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>PM2.5 Global Air Pollution 2017</h1>
+    <!-- Container for the visualization -->
+    <div id="map"></div>
+
+    <script>
+      // Assign the specification to a local variable vlSpec.
+      var vlSpec = {
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "title": "PM2.5 Global Air Pollution 2017",
+  "width": 800,
+  "height": 600,
+  "data": {
+    "url": "https://raw.githubusercontent.com/ziyuezhang009/fit3179-w9/main/global.geo.topo.json",
+    "format": {"type": "topojson", "feature": "global"}
+  },
+  "transform": [
+    {
+      "lookup": "properties.name",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/ziyuezhang009/fit3179-w9/main/PM2.5%20Global%20Air%20Pollution%202010-2017.csv"
+        },
+        "key": "Country Name",
+        "fields": ["2017"]
+      }
+    }
+  ],
+  "projection": {"type": "mercator"},
+  "mark": {"type": "geoshape"},
+  "encoding": {
+    "color": {"field": "2017", "type": "quantitative"},
+    "tooltip": [
+      {"field": "properties.name", "type": "nominal", "title": "Country"},
+      {"field": "2017", "type": "quantitative"}
+    ]
+  },
+  "config": {}
+}
+      // Embed the visualization in the container with id `vis`
+      vegaEmbed('#map', vlSpec);
+    </script>
+
+    <h1>Global Air Pollution 2010 - 2017</h1>
+    <!-- Container for the visualization -->
+    <div id="line1"></div>
+
+    <script>
+      // Assign the specification to a local variable vlSpec.
+      var vlSpec = {
+ "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+ "width": 500,
+ "height": 400,
+ "title": "Global Air Pollution 2010 - 2017",
+ "data": {
+ "url": "https://raw.githubusercontent.com/ziyuezhang009/fit3179-w9/main/PM_data.csv"
+ },
+ "mark": {"type" : "line",
+ "point":true},
+ "encoding": {
+ "x": { 
+ "field": "Year"
+ },
+ "y": {"aggregate":"mean", "field": "PM", "type": "quantitative",
+ "title": "Mean of PM 2.5"},
+ "color": {
+ "field": "Continent_Name",
+ "type": "nominal",
+ "scale": {
+ "domain": [
+ "North America",
+ "South America",
+ "Europe",
+ "Africa",
+ "Asia",
+ "Oceania"
+ ],
+ "range": [
+ "#e41a1c",
+ "#984ea3",
+ "#ff7f00",
+ "#a6cee3",
+ "#377eb8",
+ "#a65628"
+ ]
+ }
+ },
+"opacity": {
+ "value": 0.6
+ }
+ }
+}
+      // Embed the visualization in the container with id `vis`
+      vegaEmbed('#line1', vlSpec);
+    </script>
+
+        <h1>Asia Air Pollution 2010 - 2017</h1>
+        <!-- Container for the visualization -->
+        <div id="line2"></div>
+    
+        <script>
+          // Assign the specification to a local variable vlSpec.
+          var vlSpec = {
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": 500, "height": 400,
+   "title": "Asia Air Pollution 2010 - 2017",
+  "data": {"url": "https://raw.githubusercontent.com/ziyuezhang009/fit3179-w9/main/PM_data.csv"},
+   "selection": {
+    "country_selector": {
+      "type": "single",
+      "fields": ["Country_name"],
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "Afghanistan",
+          "Armenia",
+          "Azerbaijan",
+          "Bangladesh",
+          "Bahrain",
+          "Bhutan",
+          "China",
+          "Indonesia",
+          "India",
+          "Iraq",
+          "Israel",
+          "Kazakhstan",
+          "Cambodia",
+          "Kuwait",
+          "Lebanon",
+          "Sri Lanka",
+          "Maldives",
+          "Myanmar",
+          "Nepal",
+          "Oman",
+          "Pakistan",
+          "Philippines",
+          "Qatar",
+          "Saudi Arabia",
+          "Singapore",
+          "Thailand",
+          "Tajikistan",
+          "Timor-Leste",
+          "Turkey",
+          "Uzbekistan",
+          "Vietnam"],
+          
+        "labels": [
+          "Show All",
+          "Afghanistan",
+          "Armenia",
+          "Azerbaijan",
+          "Bangladesh",
+          "Bahrain",
+          "Bhutan",
+          "China",
+          "Indonesia",
+          "India",
+          "Iraq",
+          "Israel",
+          "Kazakhstan",
+          "Cambodia",
+          "Kuwait",
+          "Lebanon",
+          "Sri Lanka",
+          "Maldives",
+          "Myanmar",
+          "Nepal",
+          "Oman",
+          "Pakistan",
+          "Philippines",
+          "Qatar",
+          "Saudi Arabia",
+          "Singapore",
+          "Thailand",
+          "Tajikistan",
+          "Timor-Leste",
+          "Turkey",
+          "Uzbekistan",
+          "Vietnam"],
+        "name": "Country Selection"
+      }
+    }
+  },
+  "transform": [{"filter": {"selection": "country_selector"}}],
+  "mark": {"type" : "line",
+ "point":true},
+  "encoding": {
+    "x": {
+      "timeUnit": "yearmonth", "field": "Year",
+      "axis": {"format": "%Y"}
+    },
+    "y": {
+     "aggregate":"mean", "field": "PM", "type": "quantitative",
+ "title": "Mean of PM 2.5"
+    },
+     "tooltip": [{"field": "Country_name", "type": "nominal","title":"Country"},
+     {"field": "PM", "type" :"quantitative","title":"PM 2.5"}],
+    "color": {
+      "field": "Country_name",
+      "type": "nominal",
+      "scale": {
+        "domain": [
+                    "Afghanistan",
+          "Armenia",
+          "Azerbaijan",
+          "Bangladesh",
+          "Bahrain",
+          "Bhutan",
+          "China",
+          "Indonesia",
+          "India",
+          "Iraq",
+          "Israel",
+          "Kazakhstan",
+          "Cambodia",
+          "Kuwait",
+          "Lebanon",
+          "Sri Lanka",
+          "Maldives",
+          "Myanmar",
+          "Nepal",
+          "Oman",
+          "Pakistan",
+          "Philippines",
+          "Qatar",
+          "Saudi Arabia",
+          "Singapore",
+          "Thailand",
+          "Tajikistan",
+          "Timor-Leste",
+          "Turkey",
+          "Uzbekistan",
+          "Vietnam"]
+      }
+    }
+  }
+}
+    
+          // Embed the visualization in the container with id `vis`
+          vegaEmbed('#line2', vlSpec);
+        </script>
+
+  </body>
+</html>
