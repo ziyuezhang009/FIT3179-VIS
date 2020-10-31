@@ -6,9 +6,10 @@
   "data": {
     "url": "https://raw.githubusercontent.com/ziyuezhang009/FIT3179-VIS/main/PM_data.csv"
   },
- "params":[{
-    "name": "year_param",
-    "value":"2010",
+  "params": [
+    {
+      "name": "year_param",
+      "value": "2010",
       "bind": {
         "input": "select",
         "options": [
@@ -19,7 +20,8 @@
           "2014",
           "2015",
           "2016",
-          "2017"  ],
+          "2017"
+        ],
         "labels": [
           "2010",
           "2011",
@@ -29,11 +31,12 @@
           "2015",
           "2016",
           "2017"
- ],
+        ],
         "name": "Year Selection"
       }
     }
- ],
+  ],
+"view": {"fill":"lightgrey"},
   "transform": [
     {
       "lookup": "Country_name",
@@ -42,15 +45,13 @@
           "url": "https://raw.githubusercontent.com/ziyuezhang009/fit3179-w9/main/global.geo.topo.json",
           "format": {"type": "topojson", "feature": "global"}
         },
-        "key": "properties.name"},
-        "as":"geo"
+        "key": "properties.name"
       },
+      "as": "geo"
+    },
     {"filter": "datum.Year == year_param"},
     {"filter": "datum.geo != null"}
-
   ],
-  "projection": {"type": "equalEarth"},
-   "view": {"fill": "grey"},
   "layer": [
     {
       "data": {
