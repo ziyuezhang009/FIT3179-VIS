@@ -301,6 +301,7 @@ nav.next-prev {
 .visContainer{
    width: 600px;
    display: inline-block;
+   margin-left: 20px;
 }
 .textBox{
    width: 300px;
