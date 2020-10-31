@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <title>FIT 3179 Vis2</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="A parallax scrolling experiment using jQuery" />
+    <link rel="stylesheet" media="all" href="2.css" />
+    <script src="js/modernizr.custom.37797.js"></script> 
+    <!-- Grab Google CDN's jQuery. fall back to local if necessary --> 
+    <script src="https://www.5g-o.com/codedesign/wp-content/uploads/2020/02/jquery.min_.js"></script> 
+    <script>!window.jQuery && document.write('<script src="/js/jquery-1.6.1.min.js"><\/script>')</script>
+    <script src="js/parallax.js"></script>
+  </head>
+  <body>
+    <div id="wrapper">
+      
+      <header id="branding">
+        <h1>Air Pollution PM 2.5</h1>
+      </header>
+      
+      <nav id="primary">
+        <ul>
+          <li>
+            <h1>Global Map Overall</h1>
+            <a class="map" href="#map">View</a>
+          </li>
+          <li>
+            <h1>Average PM 2.5 in Continents</h1>
+            <a class="l1" href="#l1">View</a>
+          </li>
+          <li>
+            <h1>Asia Air Pollution</h1>
+            <a class="l2" href="#l2">View</a>
+          </li>
+        </ul>
+      </nav>
+      
+      <div id="content">
+        <article id="map">
+          <header>
+            <h1>Global Map Overall</h1>
+          </header>
+          <p>The first clearly recorded instance of a balloon carrying passengers used hot air to generate buoyancy and was built by the brothers Joseph-Michel and Jacques-Etienne Montgolfier in Annonay, France. After experimenting with unmanned balloons and flights with animals, the first tethered balloon flight with humans on board took place on October 15, 1783.</p>
+          <nav class="next-prev">
+            <hr />
+            <a class="next l1" href="#l1">Next</a>
+          </nav>
+        </article>
+
+        
+        <article id="l1">
+          <header>
+            <h1>Average PM 2.5 in Continents</h1>
+          </header>
+          <p>André-Jacques Garnerin carried out the first jump with a silk parachute on October 22, 1797 at Parc Monceau, Paris. Garnerin's first parachute resembled a closed umbrella before he ascended; at a height of approximately 3,000 feet he severed the rope that connected his parachute to the balloon, and the basket fell to earth. Garnerin emerged uninjured.</p>
+          <nav class="next-prev">
+            <a class="prev map" href="#map">Prev</a>
+            <hr />
+            <a class="next l2" href="#l2">Next</a>
+          </nav>
+        </article>
+        
+        <article id="l2">
+          <header>
+            <h1>Asia Air Pollution</h1>
+          </header>
+          <p>On January 7, 1785, Jean Pierre Blanchard and Dr. John Jeffries made the first flight over the English Channel, traveling from Dover to France. During the crossing the balloon lost altitude, so they began tossing everything in the gondola they possibly could, even their clothes. About two hours after take off, they crossed the French coast clad only in their underwear.</p>
+          <nav class="next-prev">
+            <a class="prev l1" href="#l1">Prev</a>
+            
+          </nav>
+        </article>
+      </div>
+      <div id="map"></div>
+
+      <script>
+        // Assign the specification to a local variable vlSpec.
+        var vlSpec = {
+    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+    "title": "PM2.5 Global Air Pollution 2017",
+    "width": 800,
+    "height": 600,
+    "data": {
+      "url": "https://raw.githubusercontent.com/ziyuezhang009/fit3179-w9/main/global.geo.topo.json",
+      "format": {"type": "topojson", "feature": "global"}
+    },
+    "transform": [
+      {
+        "lookup": "properties.name",
+        "from": {
+          "data": {
+            "url": "https://raw.githubusercontent.com/ziyuezhang009/fit3179-w9/main/PM2.5%20Global%20Air%20Pollution%202010-2017.csv"
+          },
+          "key": "Country Name",
+          "fields": ["2017"]
+        }
+      }
+    ],
+    "projection": {"type": "equalEarth"},
+    "mark": {"type": "geoshape"},
+    "encoding": {
+      "color": {"field": "2017", "type": "quantitative"},
+      "tooltip": [
+        {"field": "properties.name", "type": "nominal", "title": "Country"},
+        {"field": "2017", "type": "quantitative", "title": "PM 2.5"}
+      ]
+    },
+    "config": {}
+  }
+        // Embed the visualization in the container with id `vis`
+        vegaEmbed('#map', vlSpec);
+      </script>
+
+    
+    </div>
+  
+  </body>
+  
+</html>
