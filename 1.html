@@ -37,84 +37,82 @@
       </nav>
       
       <div id="content">
-        <article id="map">
-          <header>
-            <h1>Global Map Overall</h1>
-          </header>
-          <p>The first clearly recorded instance of a balloon carrying passengers used hot air to generate buoyancy and was built by the brothers Joseph-Michel and Jacques-Etienne Montgolfier in Annonay, France. After experimenting with unmanned balloons and flights with animals, the first tethered balloon flight with humans on board took place on October 15, 1783.</p>
-          <nav class="next-prev">
-            <hr />
-            <a class="next l1" href="#l1">Next</a>
-          </nav>
-        </article>
-
+        <!-- first row -->
+        <div id="firstRow" class="visRow">
+          <div class="textBox">
+            <article id="map">
+              <header>
+                <h1>Global Map Overall</h1>
+              </header>
+              <p>The first clearly recorded instance of a balloon carrying passengers used hot air to generate buoyancy and was built by the brothers Joseph-Michel and Jacques-Etienne Montgolfier in Annonay, France. After experimenting with unmanned balloons and flights with animals, the first tethered balloon flight with humans on board took place on October 15, 1783.</p>
+              <nav class="next-prev">
+                <hr />
+                <a class="next l1" href="#l1">Next</a>
+              </nav>
+            </article>
+          </div>
+          <div class="visContainer">
+            <div id="visMap"></div>
+          </div>
+        </div>
+        <!-- second row -->
+        <div id="secRow" class="visRow">
+          <div class="textBox">
+            <article id="l1">
+              <header>
+                <h1>Average PM 2.5 in Continents</h1>
+              </header>
+              <p>André-Jacques Garnerin carried out the first jump with a silk parachute on October 22, 1797 at Parc Monceau, Paris. Garnerin's first parachute resembled a closed umbrella before he ascended; at a height of approximately 3,000 feet he severed the rope that connected his parachute to the balloon, and the basket fell to earth. Garnerin emerged uninjured.</p>
+              <nav class="next-prev">
+                <a class="prev map" href="#map">Prev</a>
+                <hr />
+                <a class="next l2" href="#l2">Next</a>
+              </nav>
+            </article>
+          </div>
+          <div class="visContainer">
+            <div id="visGlobalLine"></div>
+          </div>
+        </div>
+        <!-- third row -->
+        <div id="thirdRow" class="visRow">
+          <div class="textBox">
+            <article id="l2">
+              <header>
+                <h1>Asia Air Pollution</h1>
+              </header>
+              <p>On January 7, 1785, Jean Pierre Blanchard and Dr. John Jeffries made the first flight over the English Channel, traveling from Dover to France. During the crossing the balloon lost altitude, so they began tossing everything in the gondola they possibly could, even their clothes. About two hours after take off, they crossed the French coast clad only in their underwear.</p>
+              <nav class="next-prev">
+                <a class="prev l1" href="#l1">Prev</a>
+              </nav>
+            </article>
+          </div>
+          <div class="visContainer">
+            <div id="visAsiaLine"></div>
+          </div>
+        </div>   
         
-        <article id="l1">
-          <header>
-            <h1>Average PM 2.5 in Continents</h1>
-          </header>
-          <p>André-Jacques Garnerin carried out the first jump with a silk parachute on October 22, 1797 at Parc Monceau, Paris. Garnerin's first parachute resembled a closed umbrella before he ascended; at a height of approximately 3,000 feet he severed the rope that connected his parachute to the balloon, and the basket fell to earth. Garnerin emerged uninjured.</p>
-          <nav class="next-prev">
-            <a class="prev map" href="#map">Prev</a>
-            <hr />
-            <a class="next l2" href="#l2">Next</a>
-          </nav>
-        </article>
         
-        <article id="l2">
-          <header>
-            <h1>Asia Air Pollution</h1>
-          </header>
-          <p>On January 7, 1785, Jean Pierre Blanchard and Dr. John Jeffries made the first flight over the English Channel, traveling from Dover to France. During the crossing the balloon lost altitude, so they began tossing everything in the gondola they possibly could, even their clothes. About two hours after take off, they crossed the French coast clad only in their underwear.</p>
-          <nav class="next-prev">
-            <a class="prev l1" href="#l1">Prev</a>
-            
-          </nav>
-        </article>
+        
       </div>
-      <div id="map"></div>
 
       <script>
-        // Assign the specification to a local variable vlSpec.
-        var vlSpec = {
-    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-    "title": "PM2.5 Global Air Pollution 2017",
-    "width": 800,
-    "height": 600,
-    "data": {
-      "url": "https://raw.githubusercontent.com/ziyuezhang009/fit3179-w9/main/global.geo.topo.json",
-      "format": {"type": "topojson", "feature": "global"}
-    },
-    "transform": [
-      {
-        "lookup": "properties.name",
-        "from": {
-          "data": {
-            "url": "https://raw.githubusercontent.com/ziyuezhang009/fit3179-w9/main/PM2.5%20Global%20Air%20Pollution%202010-2017.csv"
-          },
-          "key": "Country Name",
-          "fields": ["2017"]
-        }
-      }
-    ],
-    "projection": {"type": "equalEarth"},
-    "mark": {"type": "geoshape"},
-    "encoding": {
-      "color": {"field": "2017", "type": "quantitative"},
-      "tooltip": [
-        {"field": "properties.name", "type": "nominal", "title": "Country"},
-        {"field": "2017", "type": "quantitative", "title": "PM 2.5"}
-      ]
-    },
-    "config": {}
-  }
-        // Embed the visualization in the container with id `vis`
-        vegaEmbed('#map', vlSpec);
+        var spec1 = "https://ziyuezhang009.github.io/FIT3179-VIS/js/global map.json";
+        var spec2 = "https://ziyuezhang009.github.io/FIT3179-VIS/js/Global Air Pollution 2010 - 2017.json";
+        var spec3 = "https://ziyuezhang009.github.io/FIT3179-VIS/js/Asia Air Pollution 2010 - 2017.json";
+        
+        vegaEmbed('#visMap', spec1).then(function(result) {
+          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+        
+        vegaEmbed('#visGlobalLine', spec2).then(function(result) {
+          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+        
+        vegaEmbed('#visAsiaLine', spec3).then(function(result) {
+          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
       </script>
-
-    
     </div>
-  
   </body>
-  
 </html>
