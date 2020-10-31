@@ -51,17 +51,26 @@
   ],
   "projection": {"type": "equalEarth"},
    "view": {"fill": "grey"},
-  "mark": {"type": "geoshape","color":"#7a7474", "stroke":"black"},
-  "encoding": {
-     "shape": {"field": "geo", "type": "geojson"},
- "color": {
-      "field": "PM",
-      "type": "quantitative"},
-      
-    "tooltip": [
-      {"field": "Country_name", "type": "nominal", "title": "Country"},
-      {"field": "PM", "type": "quantitative", "title": "PM 2.5"}
-    ]
-  },
+  "layer": [
+    {
+      "data": {
+          "url": "https://raw.githubusercontent.com/ziyuezhang009/fit3179-w9/main/global.geo.topo.json",
+          "format": {"type": "topojson", "feature": "global"}
+        },
+      "mark": {"type": "geoshape", "color":"#7a7474", "stroke":"black"}
+    },
+    {
+      "projection": {"type": "equalEarth"},
+      "mark": {"type": "geoshape", "stroke":"black"},
+      "encoding": {
+        "shape": {"field": "geo", "type": "geojson"},
+        "color": {"field": "PM", "type": "quantitative"},
+        "tooltip": [
+          {"field": "Country_name", "type": "nominal", "title": "Country"},
+          {"field": "PM", "type": "quantitative", "title": "PM 2.5"}
+        ]
+      }
+    }
+  ],
   "config": {}
 }
