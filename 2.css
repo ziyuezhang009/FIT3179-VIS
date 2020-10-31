@@ -296,3 +296,13 @@ nav.next-prev {
     top: 1020px;
     left: 450px;
     }
+
+/* custom CSS */
+.visContainer{
+   width: 600px;
+   display: inline-block;
+}
+.textBox{
+   width: 300px;
+   display: inline-block;
+}
