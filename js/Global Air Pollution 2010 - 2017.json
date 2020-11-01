@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "width": 600,
+  "width": 500,
   "height": 400,
   "title": "Global Air Pollution 2010 - 2017",
   "data": {
@@ -15,6 +15,10 @@
       "type": "quantitative",
       "title": "Mean of PM 2.5"
     },
+    "tooltip": [
+          {"field": "Continent_Name", "type": "nominal", "title": "Continent"}
+        ],
+    
     "color": {
       "field": "Continent_Name",
       "type": "nominal",
@@ -28,16 +32,16 @@
           "Oceania"
         ],
         "range": [
-          "#e41a1c",
-          "#984ea3",
-          "#ff7f00",
-          "#a6cee3",
-          "#377eb8",
-          "#a65628"
+          "#1b9e77",
+"#d95f02",
+"#7570b3",
+"#e7298a",
+"#66a61e",
+"#e6ab02"
         ]
       }
     },
+    
     "opacity": {"value": 0.6}
-  },
-  "config": {}
+  }
 }
