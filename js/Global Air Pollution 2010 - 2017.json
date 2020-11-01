@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "width": 500,
-  "height": 400,
+  "height": 300,
   "title": "Global Air Pollution 2010 - 2017",
   "data": {
     "url": "https://raw.githubusercontent.com/ziyuezhang009/fit3179-w9/main/PM_data.csv"
